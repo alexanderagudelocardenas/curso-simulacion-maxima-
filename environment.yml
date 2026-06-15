@@ -1,0 +1,8 @@
+name: maxima-env
+channels:
+  - conda-forge
+dependencies:
+  - maxima
+  - maxima-jupyter
+  - jupyterlab
+  - python=3.10
