@@ -1,8 +1,11 @@
 name: maxima-env
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - maxima
-  - maxima-jupyter
   - jupyterlab
   - python=3.10
+  - pip
+  - pip:
+    - maxima-jupyter
